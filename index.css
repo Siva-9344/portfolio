@@ -127,4 +127,49 @@ footer {
   .services div {
     width: 90%;
   }
+
 }
+
+.links a {
+  display: block;
+  width: 100%;
+  padding: 15px 20px;
+  background: #ffffff20;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  font-size: 1.1em;
+}
+
+footer a {
+  text-decoration: none;
+  color: #00b4db;
+  font-weight: normal;
+  display: inline;
+}
+
+/* Gmail Link - Keep default style */
+.email-link {
+  color: #141213; /* light blue */
+  text-decoration: none;
+  background-color:#eefaf2;
+}
+
+/* WhatsApp Button Style */
+.whatsapp-link {
+  background-color: #25D366; /* WhatsApp green */
+  color: white;
+  padding: 8px 14px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-link:hover {
+  background-color: #1ebe5d;
+}
+
