@@ -182,6 +182,56 @@ footer a {
   }
 }
 
+/* ---------- Intro Video button (inherits link style) ---------- */
+.intro-btn{
+  all: unset;                  /* start fresh */
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+  padding: 15px 20px;
+  background: #ffffff20;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.1em;
+  box-shadow: 0 4px 12px rgba(0,0,0,.3);
+  transition:.3s;
+}
+.intro-btn:hover{
+  background:#00b4db;
+  transform:scale(1.05);
+  box-shadow:0 6px 15px rgba(0,0,0,.5);
+}
+
+/* ---------- Modal shell ---------- */
+.video-modal{
+  display:none;                /* hidden by default */
+  position:fixed; inset:0;
+  background:rgba(0,0,0,.65);
+  justify-content:center;
+  align-items:center;
+  z-index:999;
+}
+
+/* Modal box */
+.modal-box{
+  position:relative;
+  width:90%; max-width:640px;
+  background:#0f2027;
+  border-radius:12px;
+  padding:12px;
+  box-shadow:0 0 24px rgba(0,0,0,.7);
+}
+.modal-box iframe{
+  width:100%; height:360px;
+  border-radius:8px;
+}
+
+/* Close icon */
+.close{
+  position:absolute; top:6px; right:14px;
+  font-size:30px; color:#fff; cursor:pointer;
+}
 
 
 
